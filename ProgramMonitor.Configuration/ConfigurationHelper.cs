@@ -190,7 +190,11 @@ namespace ProgramMonitor.Configuration
 					string installedLocation = this.GetInstalledLocation(app);
 					string installedForUser = this.GetInstalledForUser(app);
 
-					MonitoredApplication appMonitor = new MonitoredApplication(application, displayName, installedLocation, installedForUser);
+					MonitoredApplication appMonitor = new MonitoredApplication(
+						displayName, 
+						installedLocation,
+						application, 
+						installedForUser);
 					appMonitor.TotalAllowedMinutes = dailyMinutes;
 					appMonitor.AllowedIsDefaultValue = true;
 
@@ -259,9 +263,9 @@ namespace ProgramMonitor.Configuration
 
 						// it's an entry for the user, and it's not a "don't monitor" entry.  Add it to the results
 						MonitoredApplication userApp = new MonitoredApplication(
-							executable,
 							this.GetDisplayName(userAppKey),
 							this.GetInstalledLocation(userAppKey),
+							executable,
 							this.GetInstalledForUser(userAppKey));
 
 						userApp.TotalAllowedMinutes = this.GetTimeAllowed(userAppKey, this.GetDefaultDailyMinutesAllowed(),

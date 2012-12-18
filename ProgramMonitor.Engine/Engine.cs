@@ -20,8 +20,8 @@ namespace ProgramMonitor.Engine
 			foreach (string user in userAccounts)
 			{
 
-//if (user != "cclarke")
-//    continue;
+if (user != "cclarke")
+    continue;
 				this.mUserMonitors.Add(new UserMonitor(user));
 			}
 		}

@@ -23,3 +23,6 @@ C:\Source-Infrequent\ProgramMonitor\ProgramMonitor.UI\obj\Debug\ResGen.read.1.tl
 C:\Source-Infrequent\ProgramMonitor\ProgramMonitor.UI\obj\Debug\ResGen.write.1.tlog
 C:\Source-Infrequent\ProgramMonitor\ProgramMonitor.UI\obj\Debug\ProgramMonitor.UI.dll
 C:\Source-Infrequent\ProgramMonitor\ProgramMonitor.UI\obj\Debug\ProgramMonitor.UI.pdb
+C:\Source-Infrequent\ProgramMonitor\bin\Debug\ProgramMonitor.UI.dll.config
+C:\Source-Infrequent\ProgramMonitor\bin\Debug\ProgramMonitor.UI.dll
+C:\Source-Infrequent\ProgramMonitor\bin\Debug\ProgramMonitor.UI.pdb

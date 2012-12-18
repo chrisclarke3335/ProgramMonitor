@@ -8,9 +8,24 @@ namespace ProgramMonitor.Engine
 {
 	public class UserMonitor
 	{
+		/// <summary>
+		/// Thread that monitors the associated user's applications
+		/// </summary>
 		private Thread mMonitorThread;
+
+		/// <summary>
+		/// The username of the associated user
+		/// </summary>
 		private string mUserName;
+
+		/// <summary>
+		/// The applications being monitored for this user.  Key is exe name (w/o extension), value is monitor object
+		/// </summary>
 		private Dictionary<string, ApplicationMonitor> mMonitorList;
+
+		/// <summary>
+		/// Event to stop the user monitor thread
+		/// </summary>
 		private ManualResetEvent mStopMonitoring;
 
 		public UserMonitor(string userName)
@@ -42,13 +57,14 @@ namespace ProgramMonitor.Engine
 
 			while(keepMonitoring)
 			{
-				// read my configuration
+				// get the list of configured appliations to monitor for this user
 				MonitoredApplication[] list = ConfigurationHelper.Instance.GetMonitoredApplicationsForUser(this.mUserName);
 
-				// add applications we're newly monitoring
+				// compare the list of applications that should be monitored with what's actually being monitored.  If
+				// there are any missing, then add them
 				foreach (MonitoredApplication newApp in list)
 				{
-					if (this.mMonitorList.ContainsKey(newApp.Executable) == false)
+					if (this.mMonitorList.ContainsKey(newApp.Executable.ToLower()) == false)
 					{
 						Logger.Log(string.Format("UserMonitor ({0}): Creating new application monitor for application {1}", this.mUserName, newApp.Executable));
 						ApplicationMonitor monitor = new ApplicationMonitor(newApp);
@@ -57,11 +73,12 @@ namespace ProgramMonitor.Engine
 					}
 				}
 
-				// remove applications we're no longer monitoring
-				foreach(ApplicationMonitor app in this.mMonitorList.Values)
+				// compare the list of applications that should be monitored with what's actually being monitored.  If
+				// there are in our list 
+				foreach (ApplicationMonitor app in this.mMonitorList.Values)
 				{
 					bool found = false;
-					foreach(ApplicationMonitor newApp in list)
+					foreach(MonitoredApplication newApp in list)
 					{
 						if (newApp.Equals(app))
 						{

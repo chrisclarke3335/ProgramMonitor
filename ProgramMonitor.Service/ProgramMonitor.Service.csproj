@@ -45,9 +45,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ProgramMonitor.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="Service1.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -65,10 +62,6 @@
     <ProjectReference Include="..\ProgramMonitor.Engine\ProgramMonitor.Engine.csproj">
       <Project>{4C12C4ED-5511-4688-B569-6952F4E22E60}</Project>
       <Name>ProgramMonitor.Engine</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ProgramMonitor.Remoting\ProgramMonitor.Remoting.csproj">
-      <Project>{00AB25CB-ABB7-4392-B58C-A0171B25E5E1}</Project>
-      <Name>ProgramMonitor.Remoting</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
