@@ -1,0 +1,14 @@
+C:\Source\ProgramMonitor\ProgramMonitorTray\obj\Debug\ResolveAssemblyReference.cache
+C:\Source\ProgramMonitor\ProgramMonitorTray\obj\Debug\ProgramMonitorTray.Properties.Resources.resources
+C:\Source\ProgramMonitor\ProgramMonitorTray\obj\Debug\ProgramMonitorTray.csproj.GenerateResource.Cache
+C:\Source\ProgramMonitor\ProgramMonitorTray\bin\Debug\ProgramMonitorTray.exe
+C:\Source\ProgramMonitor\ProgramMonitorTray\bin\Debug\ProgramMonitorTray.pdb
+C:\Source\ProgramMonitor\ProgramMonitorTray\obj\Debug\ProgramMonitorTray.exe
+C:\Source\ProgramMonitor\ProgramMonitorTray\obj\Debug\ProgramMonitorTray.pdb
+C:\Source\bin\Debug\ProgramMonitorTray.exe
+C:\Source\bin\Debug\ProgramMonitorTray.pdb
+C:\Source\ProgramMonitor\bin\Debug\ProgramMonitorTray.exe
+C:\Source\ProgramMonitor\bin\Debug\ProgramMonitorTray.pdb
+C:\Source\ProgramMonitor\ProgramMonitorTray\obj\Debug\ProgramMonitor.Tray.Form1.resources
+C:\Source\ProgramMonitor\ProgramMonitorTray\obj\Debug\ProgramMonitor.Tray.Password.resources
+C:\Source\ProgramMonitor\ProgramMonitorTray\obj\Debug\ProgramMonitor.Tray.RemoveTime.resources

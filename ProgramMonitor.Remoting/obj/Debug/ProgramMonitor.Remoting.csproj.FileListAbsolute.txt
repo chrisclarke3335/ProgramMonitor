@@ -1,0 +1,12 @@
+C:\Source\ProgramMonitor\bin\Debug\ProgramMonitor.Remoting.dll
+C:\Source\ProgramMonitor\bin\Debug\ProgramMonitor.Remoting.pdb
+C:\Source\ProgramMonitor\ProgramMonitor.Remoting\obj\Debug\ResolveAssemblyReference.cache
+C:\Source\ProgramMonitor\ProgramMonitor.Remoting\obj\Debug\ProgramMonitor.Remoting.dll
+C:\Source\ProgramMonitor\ProgramMonitor.Remoting\obj\Debug\ProgramMonitor.Remoting.pdb
+C:\Source\ProgramMonitor\bin\Debug\ProgramMonitor.Remoting.dll.config
+C:\Source-Infrequent\ProgramMonitor\bin\Debug\ProgramMonitor.Remoting.dll.config
+C:\Source-Infrequent\ProgramMonitor\bin\Debug\ProgramMonitor.Remoting.dll
+C:\Source-Infrequent\ProgramMonitor\bin\Debug\ProgramMonitor.Remoting.pdb
+C:\Source-Infrequent\ProgramMonitor\ProgramMonitor.Remoting\obj\Debug\ResolveAssemblyReference.cache
+C:\Source-Infrequent\ProgramMonitor\ProgramMonitor.Remoting\obj\Debug\ProgramMonitor.Remoting.dll
+C:\Source-Infrequent\ProgramMonitor\ProgramMonitor.Remoting\obj\Debug\ProgramMonitor.Remoting.pdb

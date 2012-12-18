@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D44DCAD6-8139-4A2F-BA92-C00FFF05B784}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProgramMonitor.UI</RootNamespace>
+    <AssemblyName>ProgramMonitor.UI</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationMonitorConfiguration.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ApplicationMonitorConfiguration.Designer.cs">
+      <DependentUpon>ApplicationMonitorConfiguration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ApplicationTabPage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="InstalledApplicationListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="InstalledApplicationsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InstalledApplicationsForm.Designer.cs">
+      <DependentUpon>InstalledApplicationsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InstalledApplicationTabPage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MonitoredApplicationListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MonitoredApplicationTabPage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ApplicationMonitorConfiguration.resx">
+      <DependentUpon>ApplicationMonitorConfiguration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InstalledApplicationsForm.resx">
+      <DependentUpon>InstalledApplicationsForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ProgramMonitor.Configuration\ProgramMonitor.Configuration.csproj">
+      <Project>{4FAC8AE0-ACAD-4121-BA73-1F6C516FC635}</Project>
+      <Name>ProgramMonitor.Configuration</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

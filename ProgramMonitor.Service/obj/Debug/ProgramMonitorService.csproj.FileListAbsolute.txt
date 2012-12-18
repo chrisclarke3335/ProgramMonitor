@@ -1,0 +1,12 @@
+C:\Source\ProgramMonitor\ProgramMonitorService\obj\Debug\ResolveAssemblyReference.cache
+C:\Source\ProgramMonitor\ProgramMonitorService\bin\Debug\ProgramMonitorService.exe
+C:\Source\ProgramMonitor\ProgramMonitorService\bin\Debug\ProgramMonitorService.pdb
+C:\Source\ProgramMonitor\ProgramMonitorService\bin\Debug\ProgramMonitorRemoting.dll
+C:\Source\ProgramMonitor\ProgramMonitorService\bin\Debug\ProgramMonitorRemoting.pdb
+C:\Source\ProgramMonitor\ProgramMonitorService\obj\Debug\ProgramMonitorService.exe
+C:\Source\ProgramMonitor\ProgramMonitorService\obj\Debug\ProgramMonitorService.pdb
+C:\Source\bin\Debug\ProgramMonitorService.exe
+C:\Source\bin\Debug\ProgramMonitorService.pdb
+C:\Source\ProgramMonitor\bin\Debug\ProgramMonitorService.exe
+C:\Source\ProgramMonitor\bin\Debug\ProgramMonitorService.pdb
+C:\Source\ProgramMonitor\bin\Debug\ProgramMonitorService.exe.config

@@ -1,0 +1,12 @@
+C:\Source\ProgramMonitor\bin\Debug\ProgramMonitor.Engine.dll.config
+C:\Source\ProgramMonitor\bin\Debug\ProgramMonitor.Engine.dll
+C:\Source\ProgramMonitor\bin\Debug\ProgramMonitor.Engine.pdb
+C:\Source\ProgramMonitor\ProgramMonitor.Engine\obj\Debug\ResolveAssemblyReference.cache
+C:\Source\ProgramMonitor\ProgramMonitor.Engine\obj\Debug\ProgramMonitor.Engine.dll
+C:\Source\ProgramMonitor\ProgramMonitor.Engine\obj\Debug\ProgramMonitor.Engine.pdb
+C:\Source-Infrequent\ProgramMonitor\bin\Debug\ProgramMonitor.Engine.dll.config
+C:\Source-Infrequent\ProgramMonitor\bin\Debug\ProgramMonitor.Engine.dll
+C:\Source-Infrequent\ProgramMonitor\bin\Debug\ProgramMonitor.Engine.pdb
+C:\Source-Infrequent\ProgramMonitor\ProgramMonitor.Engine\obj\Debug\ResolveAssemblyReference.cache
+C:\Source-Infrequent\ProgramMonitor\ProgramMonitor.Engine\obj\Debug\ProgramMonitor.Engine.dll
+C:\Source-Infrequent\ProgramMonitor\ProgramMonitor.Engine\obj\Debug\ProgramMonitor.Engine.pdb

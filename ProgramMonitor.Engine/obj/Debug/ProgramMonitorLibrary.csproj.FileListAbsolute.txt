@@ -1,0 +1,6 @@
+C:\Source\ProgramMonitor\ProgramMonitorLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Source\ProgramMonitor\bin\Debug\ProgramMonitorLibrary.dll.config
+C:\Source\ProgramMonitor\bin\Debug\ProgramMonitorLibrary.dll
+C:\Source\ProgramMonitor\bin\Debug\ProgramMonitorLibrary.pdb
+C:\Source\ProgramMonitor\ProgramMonitorLibrary\obj\Debug\ProgramMonitorLibrary.dll
+C:\Source\ProgramMonitor\ProgramMonitorLibrary\obj\Debug\ProgramMonitorLibrary.pdb
