@@ -1,0 +1,8 @@
+[12/1/2012 2:49:37 PM] UserMonitor (Administrator): Thread starting for user Administrator
+[12/1/2012 2:49:37 PM] UserMonitor (Guest): Thread starting for user Guest
+[12/1/2012 2:49:37 PM] UserMonitor (cclarke): Thread starting for user cclarke
+[12/1/2012 2:49:37 PM] UserMonitor (UpdatusUser): Thread starting for user UpdatusUser
+[12/1/2012 3:15:44 PM] UserMonitor (cclarke): Creating new application monitor for application (unknown)
+[12/1/2012 3:15:44 PM] UserMonitor (Guest): Creating new application monitor for application (unknown)
+[12/1/2012 3:15:44 PM] UserMonitor (UpdatusUser): Creating new application monitor for application (unknown)
+[12/1/2012 3:15:44 PM] UserMonitor (Administrator): Creating new application monitor for application (unknown)

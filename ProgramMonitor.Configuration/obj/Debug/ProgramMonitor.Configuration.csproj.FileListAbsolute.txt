@@ -1,0 +1,16 @@
+C:\Source\ProgramMonitor\bin\Debug\ProgramMonitor.Configuration.dll.config
+C:\Source\ProgramMonitor\bin\Debug\ProgramMonitor.Configuration.dll
+C:\Source\ProgramMonitor\bin\Debug\ProgramMonitor.Configuration.pdb
+C:\Source\ProgramMonitor\ProgramMonitor.Configuration\obj\Debug\ResolveAssemblyReference.cache
+C:\Source\ProgramMonitor\ProgramMonitor.Configuration\obj\Debug\Interop.Shell32.dll
+C:\Source\ProgramMonitor\ProgramMonitor.Configuration\obj\Debug\ProgramMonitor.Configuration.csproj.ResolveComReference.cache
+C:\Source\ProgramMonitor\ProgramMonitor.Configuration\obj\Debug\ProgramMonitor.Configuration.dll
+C:\Source\ProgramMonitor\ProgramMonitor.Configuration\obj\Debug\ProgramMonitor.Configuration.pdb
+C:\Source-Infrequent\ProgramMonitor\bin\Debug\ProgramMonitor.Configuration.dll.config
+C:\Source-Infrequent\ProgramMonitor\bin\Debug\ProgramMonitor.Configuration.dll
+C:\Source-Infrequent\ProgramMonitor\bin\Debug\ProgramMonitor.Configuration.pdb
+C:\Source-Infrequent\ProgramMonitor\ProgramMonitor.Configuration\obj\Debug\ResolveAssemblyReference.cache
+C:\Source-Infrequent\ProgramMonitor\ProgramMonitor.Configuration\obj\Debug\Interop.Shell32.dll
+C:\Source-Infrequent\ProgramMonitor\ProgramMonitor.Configuration\obj\Debug\ProgramMonitor.Configuration.csproj.ResolveComReference.cache
+C:\Source-Infrequent\ProgramMonitor\ProgramMonitor.Configuration\obj\Debug\ProgramMonitor.Configuration.dll
+C:\Source-Infrequent\ProgramMonitor\ProgramMonitor.Configuration\obj\Debug\ProgramMonitor.Configuration.pdb
